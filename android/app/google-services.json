@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "678405409819",
+    "project_id": "shop-app-d66c5",
+    "storage_bucket": "shop-app-d66c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678405409819:android:47bd81c82a65e4324d3cbe",
+        "android_client_info": {
+          "package_name": "com.example.ali.shop_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678405409819-rjgv75tf9j1p6jprbcikfqra2eq5nppk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRxQ_T7AZMyRtCxQzbJIILdT5F7zA4y-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678405409819-rjgv75tf9j1p6jprbcikfqra2eq5nppk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
