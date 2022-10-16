@@ -157,7 +157,7 @@ class RegisterScreen extends StatelessWidget {
                         validator: (value){
                           if(value!.isEmpty){
                             return "Password shouldn't be empty";
-                          }else if(value.length>6){
+                          }else if(value.length<6){
                             return "Password shouldn't be less than 6";
                           }
                           return null;
@@ -220,7 +220,7 @@ class RegisterScreen extends StatelessWidget {
                         validator: (value){
                           if(value!.isEmpty){
                             return "Confirm Password shouldn't be empty";
-                          }else if(value!=confirmPasswordController.text){
+                          }else if(value!=passwordController.text){
                             return "Should be same as password";
                           }
                           return null;
